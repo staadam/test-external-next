@@ -1,0 +1,13 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+  border-top: 3px solid var(--black);
+
+  background-color: var(--primaryColor);
+}

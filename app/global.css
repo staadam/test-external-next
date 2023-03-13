@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+:root {
+  --primaryColor: #415a77;
+  --secondaryColor: #778da9;
+  --black: #0d1b2a;
+  --white: #e0e1dd;
+  --red: #d00000;
+  --green: #70e000;
+}
+
+/* TODO: Create light theme after the design is created */
+/* @media (prefers-color-scheme: light) {
+  :root {
+		
+  }
+} */
